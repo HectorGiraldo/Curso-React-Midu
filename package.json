@@ -10,10 +10,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HectorGiraldo/Curso-React-Midu" 
+    "url": "git+https://github.com/HectorGiraldo/Curso-React-Midu"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
